@@ -1,0 +1,7 @@
+
+
+Both approaches try to fit a non-linear function to the data. However, fitting a polynomial is typically much easier since polynomials have a much simpler form than neural networks: in particular, they can be expressed as linear functions of features, if the set of features includes relevant monomials (one can even use the kernel trick with a polynomial kernel to implicitly use a large number of monomials, in which case the function is linear in the corresponding RKHS feature map). This makes the fitting problem convex, which makes it easy to solve by convex optimization.
+
+In contrast, learning a neural network is a non-convex problem that can be much harder to solve, and typically requires good initialization and tuning. But the class of functions that can be learned effectively with a neural network (the “inductive bias”) is richer than polynomials, and many of the successes of neural network/deep learning are due to the rich hierarchical representations that these models are able to learn. You could argue that polynomials can approach any function just like neural networks, however the invariances that neural networks learn to encode thanks to their hierarchical architecture make them much more effective for generalization in the context of statistical learning when the data has structure (e.g. in images/audio/text).
+
+ref : https://www.quora.com/What-is-the-a-between-polynomial-fitting-and-neural-network-training
