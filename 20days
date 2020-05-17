@@ -1,0 +1,7 @@
+20 days completed ; #60daysofudacity
+
+* implemented classification for Fashion MNIST
+* learnt about regularization(dropouts), image transformations and * transfer learning
+*implemented these techniques for cat vs dog classification with densenet121.
+
+#BertelsmannUdacity AI Track

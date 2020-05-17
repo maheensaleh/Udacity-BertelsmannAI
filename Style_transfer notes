@@ -1,0 +1,5 @@
+max pool layer : discards extra information from the image
+
+Deeper layers of cnn  saves record of th econtent of teh iamge
+
+similarities an ddifferences in feature maps give info about style of image
